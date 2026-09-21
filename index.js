@@ -24,6 +24,7 @@ let handleBankInteraction = async () => {};
 
 try {
   const bankPath = path.join(__dirname, 'bank', 'index.js');
+
   if (fs.existsSync(bankPath)) {
     const bankSystem = require('./bank/index.js');
 
@@ -57,7 +58,11 @@ try {
 const readAdminSettings = () => {
   try {
     const filePath = path.join(__dirname, 'admin_settings.json');
-    if (!fs.existsSync(filePath)) return { adminRoles: [], eventRoles: [] };
+
+    if (!fs.existsSync(filePath)) {
+      return { adminRoles: [], eventRoles: [] };
+    }
+
     return JSON.parse(fs.readFileSync(filePath, 'utf8'));
   } catch (err) {
     return { adminRoles: [], eventRoles: [] };
@@ -65,18 +70,32 @@ const readAdminSettings = () => {
 };
 
 const hasAdminPermission = (member) => {
-  if (member.permissions.has(PermissionFlagsBits.Administrator)) return true;
+  if (member.permissions.has(PermissionFlagsBits.Administrator)) {
+    return true;
+  }
+
   const adminSettings = readAdminSettings();
-  if (!adminSettings.adminRoles) return false;
+
+  if (!adminSettings.adminRoles) {
+    return false;
+  }
+
   return member.roles.cache.some(role =>
     adminSettings.adminRoles.map(String).includes(role.id)
   );
 };
 
 const hasEventPermission = (member) => {
-  if (member.permissions.has(PermissionFlagsBits.Administrator)) return true;
+  if (member.permissions.has(PermissionFlagsBits.Administrator)) {
+    return true;
+  }
+
   const adminSettings = readAdminSettings();
-  if (!adminSettings.eventRoles) return false;
+
+  if (!adminSettings.eventRoles) {
+    return false;
+  }
+
   return member.roles.cache.some(role =>
     adminSettings.eventRoles.map(String).includes(role.id)
   );
@@ -84,11 +103,14 @@ const hasEventPermission = (member) => {
 
 (async () => {
   try {
-    await mongoose.connect(process.env.MONGODB);
+    // MongoDB
+    await mongoose.connect(process.env.MONGO_CONNECTION_STRING);
     console.log('\x1b[32m✅ Connected to MongoDB\x1b[0m');
 
+    // Discord Bot
     await client.login(process.env.TOKEN);
     console.log('\x1b[32m✅ Bot logged in successfully\x1b[0m');
+
   } catch (error) {
     console.error('❌ Startup error:', error);
   }
@@ -109,6 +131,28 @@ client.on('messageCreate', async message => {
   if (typeof handleBankCommand === 'function' && commandName) {
     try {
       await handleBankCommand(message, commandName, args);
+    } catch (error) {
+      console.error('[Bank Command Error]:', error);
+    }
+  }
+});
+
+client.on('interactionCreate', async interaction => {
+  try {
+    if (typeof handleBankInteraction === 'function') {
+      await handleBankInteraction(interaction);
+    }
+  } catch (error) {
+    console.error('[Bank Interaction Error]:', error);
+  }
+});
+
+module.exports = {
+  client,
+  hasAdminPermission,
+  hasEventPermission,
+  readAdminSettings
+};      await handleBankCommand(message, commandName, args);
     } catch (error) {
       console.error('[Bank Command Error]:', error);
     }
