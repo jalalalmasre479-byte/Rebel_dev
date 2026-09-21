@@ -1,0 +1,23 @@
+{
+  "name": "bank bot by DarkAngel (q3yb)",
+  "version": "1.0.0",
+  "description": "q3yb",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.8.3",
+    "napi-rs/canvas": "^0.1.96",
+    "discord.js": "^14.25.1",
+    "dotenv": "^17.2.3",
+    "install": "^0.13.0",
+    "mongoose": "^9.1.6",
+    "multer": "^2.0.2",
+    "node-fetch": "^3.3.2",
+    "npm": "^11.11.0"
+  }
+}
