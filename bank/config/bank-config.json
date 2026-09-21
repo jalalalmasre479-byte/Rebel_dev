@@ -1,0 +1,770 @@
+{
+  "adminSettings": {
+    "ownerIds": [
+      "930477369003749437"
+    ],
+    "adminRoleIds": [],
+    "blacklistedUsers": [],
+    "winRate": 0.5,
+    "robSuccessRate": 0.4,
+    "transferEnabled": true,
+    "weeklyResetEnabled": false,
+    "voiceProtectionEnabled": true,
+    "bankChannels": [
+      "1470171957189284024",
+      "1293371859202740235"
+    ],
+    "useServerBranding": true,
+    "useServerColors": true
+  },
+  "economy": {
+    "startingBalance": 10000,
+    "salaryCooldown": 300000,
+    "loanMaxAmount": 1000000,
+    "loanInterestRate": 0.1,
+    "protectionCost": 5000,
+    "protectionDuration": 3600000,
+    "robMinAmount": 1000,
+    "robMaxAmount": 5000000,
+    "tipMinAmount": 100,
+    "tipMaxAmount": 5000,
+    "experience": {
+    "salary": {
+      "xpAward": 200
+    },
+    "dice": {
+      "xpAward": 50,
+      "xpOnFailAward": 15
+    },
+    "gamble": {
+      "xpAward": 75,
+      "xpOnFailAward": 25
+    },
+    "rob": {
+      "xpAward": 200,
+      "xpOnFailAward": 50
+    },
+    "land": {
+      "xpAward": 150
+    },
+    "tip": {
+      "xpAward": 25
+    },
+    "divorce": {
+      "xpAward": 250
+    },
+    "marriage": {
+      "xpAward": 500
+    },
+    "buy": {
+      "xpAward": 150
+    },
+    "sell": {
+      "xpAward": 100
+    },
+    "payback": {
+      "xpAward": 50
+      }
+    },
+  "jobs": {
+    "عاطل عن العمل": {
+      "levelRequired": 1,
+      "salary": 1000
+    },
+    "عامل نظافة": {
+      "levelRequired": 2,
+      "salary": 5000
+    },
+    "عامل بوفيه": {
+      "levelRequired": 4,
+      "salary": 7500
+    },
+    "مساعد": {
+      "levelRequired": 7,
+      "salary": 12000
+    },
+    "كاتب": {
+      "levelRequired": 10,
+      "salary": 18000
+    },
+    "مشرف": {
+      "levelRequired": 15,
+      "salary": 30000
+    },
+    "مدير قسم": {
+      "levelRequired": 22,
+      "salary": 50000
+    },
+    "مدير عام": {
+      "levelRequired": 30,
+      "salary": 85000
+    },
+    "مدير إقليمي": {
+      "levelRequired": 40,
+      "salary": 150000
+    },
+    "نائب الرئيس": {
+      "levelRequired": 50,
+      "salary": 300000
+    },
+    "رئيس تنفيذي": {
+      "levelRequired": 60,
+      "salary": 600000
+    },
+    "عضو مجلس الإدارة": {
+      "levelRequired": 70,
+      "salary": 1200000
+    },
+    "رئيس مجلس الإدارة": {
+      "levelRequired": 80,
+      "salary": 2500000
+    },
+    "مستثمر دولي": {
+      "levelRequired": 90,
+      "salary": 5000000
+    },
+    "قطب أعمال": {
+      "levelRequired": 95,
+      "salary": 10000000
+    },
+    "إمبراطور اقتصادي": {
+      "levelRequired": 100,
+      "salary": 25000000
+    }
+  }
+},
+  "canvasSettings": {
+    "GROUND_Y": 340,
+    "SLOT_POSITIONS": [
+      {
+        "x": 335,
+        "y": 240,
+        "width": 80,
+        "height": 100
+      },
+      {
+        "x": 425,
+        "y": 230,
+        "width": 90,
+        "height": 110
+      },
+      {
+        "x": 525,
+        "y": 200,
+        "width": 85,
+        "height": 140
+      },
+      {
+        "x": 620,
+        "y": 160,
+        "width": 80,
+        "height": 180
+      },
+      {
+        "x": 710,
+        "y": 220,
+        "width": 110,
+        "height": 120
+      },
+      {
+        "x": 830,
+        "y": 210,
+        "width": 95,
+        "height": 130
+      },
+      {
+        "x": 935,
+        "y": 170,
+        "width": 100,
+        "height": 170
+      },
+      {
+        "x": 1045,
+        "y": 120,
+        "width": 90,
+        "height": 220
+      }
+    ]
+  },
+  "cooldowns": {
+    "dice": 60000,
+    "luck": 180000,
+    "fruits": 300000,
+    "gamble": 300000,
+    "trade": 300000,
+    "tip": 300000,
+    "rob": 300000,
+    "salary": 300000,
+    "loan": 180000,
+    "marriage": 3600000
+  },
+  "games": {
+    "dice": {
+      "minBet": 1000
+    },
+    "gamble": {
+      "minBet": 1000
+    },
+    "trade": {
+      "minBet": 10000,
+      "percentages": [
+        100,
+        75,
+        50,
+        25,
+        0,
+        -25,
+        -50,
+        -75,
+        -100
+      ]
+    },
+    "fruits": {
+      "duration": 5000,
+      "buttonCount": 20,
+      "fruits": [
+  "🍎", "🍏", "🍐", "🍊", "🍋", "🍌", "🍉", "🍇", "🍓", 
+  "🫐", "🍈", "🍒", "🍑", "🥭", "🍍", "🥥", "🥝", "🍅", "🥑", 
+  "🫒", "🌶️", "🌽", "🥕", "🫛", "🍆", "🥦", "🥬", "🥒", "🫑",
+  "🍄", "🥜", "🫘", "🌰", "🍋‍🟩", "🍓", "🍒", "🍊", "🍎"
+]
+    },
+    "luck": {
+      "rewards": [
+        {
+          "type": "money",
+          "amount": 10000,
+          "weight": 30
+        },
+        {
+          "type": "money",
+          "amount": 50000,
+          "weight": 20
+        },
+        {
+          "type": "money",
+          "amount": 100000,
+          "weight": 10
+        },
+        {
+          "type": "material",
+          "material": "iron",
+          "amount": 800,
+          "weight": 15
+        },
+        {
+          "type": "material",
+          "material": "wood",
+          "amount": 500,
+          "weight": 15
+        },
+        {
+          "type": "nothing",
+          "weight": 10
+        }
+      ]
+    }
+  },
+  "material_definitions": {
+    "wood": {
+      "name": "خشب",
+      "emoji": "🪵",
+      "buyPrice": 100,
+      "sellPrice": 80
+    },
+    "brick": {
+      "name": "طوب",
+      "emoji": "🧱",
+      "buyPrice": 150,
+      "sellPrice": 120
+    },
+    "stone": {
+      "name": "حجر",
+      "emoji": "🪨",
+      "buyPrice": 200,
+      "sellPrice": 160
+    },
+    "steel": {
+      "name": "فولاذ",
+      "emoji": "⚙️",
+      "buyPrice": 500,
+      "sellPrice": 400
+    },
+    "iron": {
+      "name": "حديد",
+      "emoji": "🔩",
+      "buyPrice": 300,
+      "sellPrice": 240
+    },
+    "gold": {
+      "name": "ذهب",
+      "emoji": "🪙",
+      "buyPrice": 1000,
+      "sellPrice": 800
+    }
+  },
+  "lands": {
+    "library": {
+      "name": "مكتبة",
+      "emoji": "📚",
+      "image": "library.png",
+      "levels": [
+        {
+          "level": 1,
+          "price": 100000,
+          "materials": {
+            "wood": 1000,
+            "brick": 500,
+            "stone": 300
+          },
+          "incomePerMinute": 1000
+        },
+        {
+          "level": 2,
+          "price": 250000,
+          "materials": {
+            "wood": 2000,
+            "brick": 1500,
+            "stone": 800,
+            "iron": 200
+          },
+          "incomePerMinute": 2500
+        },
+        {
+          "level": 3,
+          "price": 500000,
+          "materials": {
+            "wood": 4000,
+            "brick": 3000,
+            "stone": 2000,
+            "iron": 500,
+            "steel": 100
+          },
+          "incomePerMinute": 5000
+        }
+      ]
+    },
+    "clothing": {
+      "name": "محل ملابس",
+      "emoji": "👔",
+      "image": "clothing.png",
+      "levels": [
+        {
+          "level": 1,
+          "price": 150000,
+          "materials": {
+            "wood": 1200,
+            "brick": 800,
+            "stone": 400
+          },
+          "incomePerMinute": 1500
+        },
+        {
+          "level": 2,
+          "price": 350000,
+          "materials": {
+            "wood": 2500,
+            "brick": 2000,
+            "stone": 1000,
+            "iron": 300
+          },
+          "incomePerMinute": 3500
+        },
+        {
+          "level": 3,
+          "price": 700000,
+          "materials": {
+            "wood": 5000,
+            "brick": 4000,
+            "stone": 2500,
+            "iron": 600,
+            "steel": 200
+          },
+          "incomePerMinute": 7000
+        }
+      ]
+    },
+    "salon": {
+      "name": "صالون",
+      "emoji": "💇",
+      "image": "salon.png",
+      "levels": [
+        {
+          "level": 1,
+          "price": 120000,
+          "materials": {
+            "wood": 900,
+            "brick": 600,
+            "stone": 350
+          },
+          "incomePerMinute": 1200
+        },
+        {
+          "level": 2,
+          "price": 280000,
+          "materials": {
+            "wood": 2000,
+            "brick": 1800,
+            "stone": 900,
+            "iron": 250
+          },
+          "incomePerMinute": 2800
+        },
+        {
+          "level": 3,
+          "price": 600000,
+          "materials": {
+            "wood": 4500,
+            "brick": 3500,
+            "stone": 2200,
+            "iron": 500,
+            "steel": 150
+          },
+          "incomePerMinute": 6000
+        }
+      ]
+    },
+    "restaurant": {
+      "name": "مطعم",
+      "emoji": "🍽️",
+      "image": "restaurant.png",
+      "levels": [
+        {
+          "level": 1,
+          "price": 200000,
+          "materials": {
+            "wood": 1500,
+            "brick": 1200,
+            "stone": 600
+          },
+          "incomePerMinute": 2000
+        },
+        {
+          "level": 2,
+          "price": 450000,
+          "materials": {
+            "wood": 3000,
+            "brick": 2500,
+            "stone": 1500,
+            "iron": 400
+          },
+          "incomePerMinute": 4500
+        },
+        {
+          "level": 3,
+          "price": 900000,
+          "materials": {
+            "wood": 6000,
+            "brick": 5000,
+            "stone": 3000,
+            "iron": 800,
+            "steel": 300
+          },
+          "incomePerMinute": 9000
+        }
+      ]
+    },
+    "cafe": {
+      "name": "مقهى",
+      "emoji": "☕",
+      "image": "cafe.png",
+      "levels": [
+        {
+          "level": 1,
+          "price": 180000,
+          "materials": {
+            "wood": 1300,
+            "brick": 1000,
+            "stone": 500
+          },
+          "incomePerMinute": 1800
+        },
+        {
+          "level": 2,
+          "price": 400000,
+          "materials": {
+            "wood": 2800,
+            "brick": 2200,
+            "stone": 1200,
+            "iron": 350
+          },
+          "incomePerMinute": 4000
+        },
+        {
+          "level": 3,
+          "price": 800000,
+          "materials": {
+            "wood": 5500,
+            "brick": 4500,
+            "stone": 2800,
+            "iron": 700,
+            "steel": 250
+          },
+          "incomePerMinute": 8000
+        }
+      ]
+    },
+    "supermarket": {
+      "name": "سوبرماركت",
+      "emoji": "🏪",
+      "image": "supermarket.png",
+      "levels": [
+        {
+          "level": 1,
+          "price": 300000,
+          "materials": {
+            "wood": 2000,
+            "brick": 1800,
+            "stone": 1000
+          },
+          "incomePerMinute": 3000
+        },
+        {
+          "level": 2,
+          "price": 650000,
+          "materials": {
+            "wood": 4000,
+            "brick": 3500,
+            "stone": 2000,
+            "iron": 600
+          },
+          "incomePerMinute": 6500
+        },
+        {
+          "level": 3,
+          "price": 1200000,
+          "materials": {
+            "wood": 8000,
+            "brick": 6500,
+            "stone": 4000,
+            "iron": 1200,
+            "steel": 500
+          },
+          "incomePerMinute": 12000
+        }
+      ]
+    },
+    "station": {
+      "name": "محطة",
+      "emoji": "🚉",
+      "image": "station.png",
+      "levels": [
+        {
+          "level": 1,
+          "price": 500000,
+          "materials": {
+            "wood": 3000,
+            "brick": 2500,
+            "stone": 2000,
+            "iron": 500
+          },
+          "incomePerMinute": 5000
+        },
+        {
+          "level": 2,
+          "price": 1000000,
+          "materials": {
+            "wood": 6000,
+            "brick": 5000,
+            "stone": 4000,
+            "iron": 1000,
+            "steel": 300
+          },
+          "incomePerMinute": 10000
+        },
+        {
+          "level": 3,
+          "price": 2000000,
+          "materials": {
+            "wood": 12000,
+            "brick": 10000,
+            "stone": 8000,
+            "iron": 2000,
+            "steel": 800
+          },
+          "incomePerMinute": 20000
+        }
+      ]
+    },
+    "tower": {
+      "name": "برج",
+      "emoji": "🏢",
+      "image": "tower.png",
+      "levels": [
+        {
+          "level": 1,
+          "price": 800000,
+          "materials": {
+            "wood": 4000,
+            "brick": 5000,
+            "stone": 3000,
+            "iron": 800,
+            "steel": 200
+          },
+          "incomePerMinute": 8000
+        },
+        {
+          "level": 2,
+          "price": 1500000,
+          "materials": {
+            "wood": 8000,
+            "brick": 10000,
+            "stone": 6000,
+            "iron": 1500,
+            "steel": 500
+          },
+          "incomePerMinute": 15000
+        },
+        {
+          "level": 3,
+          "price": 3000000,
+          "materials": {
+            "wood": 15000,
+            "brick": 20000,
+            "stone": 12000,
+            "iron": 3000,
+            "steel": 1000,
+            "gold": 100
+          },
+          "incomePerMinute": 30000
+        }
+      ]
+    },
+    "hospital": {
+      "name": "مستشفى",
+      "emoji": "🏥",
+      "image": "hospital.png",
+      "levels": [
+        {
+          "level": 1,
+          "price": 1000000,
+          "materials": {
+            "wood": 5000,
+            "brick": 6000,
+            "stone": 4000,
+            "iron": 1000,
+            "steel": 300
+          },
+          "incomePerMinute": 10000
+        },
+        {
+          "level": 2,
+          "price": 2000000,
+          "materials": {
+            "wood": 10000,
+            "brick": 12000,
+            "stone": 8000,
+            "iron": 2000,
+            "steel": 700
+          },
+          "incomePerMinute": 20000
+        },
+        {
+          "level": 3,
+          "price": 4000000,
+          "materials": {
+            "wood": 20000,
+            "brick": 24000,
+            "stone": 16000,
+            "iron": 4000,
+            "steel": 1500,
+            "gold": 200
+          },
+          "incomePerMinute": 40000
+        }
+      ]
+    },
+    "tech": {
+      "name": "شركة تقنية",
+      "emoji": "💻",
+      "image": "it.png",
+      "levels": [
+        {
+          "level": 1,
+          "price": 1500000,
+          "materials": {
+            "wood": 6000,
+            "brick": 7000,
+            "stone": 5000,
+            "iron": 1500,
+            "steel": 500,
+            "gold": 50
+          },
+          "incomePerMinute": 15000
+        },
+        {
+          "level": 2,
+          "price": 3000000,
+          "materials": {
+            "wood": 12000,
+            "brick": 14000,
+            "stone": 10000,
+            "iron": 3000,
+            "steel": 1000,
+            "gold": 150
+          },
+          "incomePerMinute": 30000
+        },
+        {
+          "level": 3,
+          "price": 6000000,
+          "materials": {
+            "wood": 24000,
+            "brick": 28000,
+            "stone": 20000,
+            "iron": 6000,
+            "steel": 2000,
+            "gold": 500
+          },
+          "incomePerMinute": 60000
+        }
+      ]
+    },
+    "telecom": {
+      "name": "شركة اتصالات",
+      "emoji": "📡",
+      "image": "telecom.png",
+      "levels": [
+        {
+          "level": 1,
+          "price": 2000000,
+          "materials": {
+            "wood": 8000,
+            "brick": 9000,
+            "stone": 7000,
+            "iron": 2000,
+            "steel": 700,
+            "gold": 100
+          },
+          "incomePerMinute": 20000
+        },
+        {
+          "level": 2,
+          "price": 4000000,
+          "materials": {
+            "wood": 16000,
+            "brick": 18000,
+            "stone": 14000,
+            "iron": 4000,
+            "steel": 1500,
+            "gold": 300
+          },
+          "incomePerMinute": 40000
+        },
+        {
+          "level": 3,
+          "price": 8000000,
+          "materials": {
+            "wood": 32000,
+            "brick": 36000,
+            "stone": 28000,
+            "iron": 8000,
+            "steel": 3000,
+            "gold": 800
+          },
+          "incomePerMinute": 80000
+        }
+      ]
+    }
+  }
+}

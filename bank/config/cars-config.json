@@ -1,0 +1,582 @@
+{
+  "auction": {
+    "auctionTime": 720000,
+    "auctionOpenTime": 240000,
+    "carsPerAuction": 3
+  },
+    "cars": [
+    {
+      "id": "Volkswagen_Golf_GTI",
+      "name": "Volkswagen Golf GTI 1983",
+      "rarity": "common",
+      "leastPrice": 20000,
+      "image": "../../img/bank/cars/Volkswagen_Golf_GTI.png",
+      "speed": 4,
+      "durability": 100
+    },
+    {
+      "id": "Audi_RS_2_Avant",
+      "name": "Audi RS 2 Avant 1995",
+      "rarity": "common",
+      "leastPrice": 50000,
+      "image": "../../img/bank/cars/Audi_RS_2_Avant.png",
+      "speed": 6,
+      "durability": 100
+    },
+    {
+      "id": "Nissan_Silvia_K's",
+      "name": "Nissan Silvia K's 1994",
+      "rarity": "common",
+      "leastPrice": 25000,
+      "image": "../../img/bank/cars/Nissan_Silvia_K's.png",
+      "speed": 6,
+      "durability": 100
+    },
+    {
+      "id": "Chevrolet_K10_Custom",
+      "name": "Chevrolet K10 Custom 1972",
+      "rarity": "common",
+      "leastPrice": 250000,
+      "image": "../../img/bank/cars/Chevrolet_K10_Custom.png",
+      "speed": 4,
+      "durability": 100
+    },
+    {
+      "id": "BMW_X5_M",
+      "name": "BMW X5 M 2011",
+      "rarity": "common",
+      "leastPrice": 100000,
+      "image": "../../img/bank/cars/BMW_X5_M.png",
+      "speed": 6,
+      "durability": 100
+    },
+    {
+      "id": "Volkswagen_GTI_VR6_Mk3",
+      "name": "Volkswagen GTI VR6 Mk3 1998",
+      "rarity": "common",
+      "leastPrice": 25000,
+      "image": "../../img/bank/cars/Volkswagen_GTI_VR6_Mk3.png",
+      "speed": 5,
+      "durability": 100
+    },
+    {
+      "id": "BMW_M5_2003",
+      "name": "BMW M5 2003",
+      "rarity": "common",
+      "leastPrice": 30000,
+      "image": "../../img/bank/cars/BMW_M5_2003.png",
+      "speed": 7,
+      "durability": 100
+    },
+    {
+      "id": "Chevrolet_Corvette_Z06_2002",
+      "name": "Chevrolet Corvette Z06 2002",
+      "rarity": "common",
+      "leastPrice": 35000,
+      "image": "../../img/bank/cars/Chevrolet_Corvette_Z06_2002.png",
+      "speed": 7,
+      "durability": 100
+    },
+    {
+      "id": "Audi_TTS_Coupé",
+      "name": "Audi TTS Coupé 2015",
+      "rarity": "common",
+      "leastPrice": 52000,
+      "image": "../../img/bank/cars/Audi_TTS_Coupé.png",
+      "speed": 7,
+      "durability": 100
+    },
+    {
+      "id": "Nissan_Sentra_NISMO",
+      "name": "Nissan Sentra NISMO 2018",
+      "rarity": "common",
+      "leastPrice": 250000,
+      "image": "../../img/bank/cars/Nissan_Sentra_NISMO.png",
+      "speed": 5,
+      "durability": 100
+    },
+    {
+      "id": "Ford_Focus_RS_2003",
+      "name": "Ford Focus RS 2003",
+      "rarity": "common",
+      "leastPrice": 30000,
+      "image": "../../img/bank/cars/Ford_Focus_RS_2003.png",
+      "speed": 5,
+      "durability": 100
+    },
+    {
+      "id": "Ford_Mustang_SVT_Cobra",
+      "name": "Ford Mustang SVT Cobra 2003",
+      "rarity": "common",
+      "leastPrice": 250000,
+      "image": "../../img/bank/cars/Ford_Mustang_SVT_Cobra.png",
+      "speed": 6,
+      "durability": 100
+    },
+    {
+      "id": "Ford_F-150_SVT_Lightning",
+      "name": "Ford F-150 SVT Lightning 2003",
+      "rarity": "common",
+      "leastPrice": 20000,
+      "image": "../../img/bank/cars/Ford_F-150_SVT_Lightning.png",
+      "speed": 5,
+      "durability": 100
+    },
+    {
+      "id": "Nissan_TITAN_Warrior_Concept",
+      "name": "Nissan TITAN Warrior Concept 2016",
+      "rarity": "common",
+      "leastPrice": 50000,
+      "image": "../../img/bank/cars/Nissan_TITAN_Warrior_Concept.png",
+      "speed": 5,
+      "durability": 100
+    },
+    {
+      "id": "Mercedes-Benz_AMG_Hammer_Coupe",
+      "name": "Mercedes-Benz AMG Hammer Coupe 1987",
+      "rarity": "common",
+      "leastPrice": 165000,
+      "image": "../../img/bank/cars/Mercedes-Benz_AMG_Hammer_Coupe.png",
+      "speed": 7,
+      "durability": 100
+    },
+    {
+      "id": "McLaren_GT",
+      "name": "McLaren GT 2020",
+      "rarity": "common",
+      "leastPrice": 210000,
+      "image": "../../img/bank/cars/McLaren_GT.png",
+      "speed": 7,
+      "durability": 100
+    },
+    {
+      "id": "Ferrari_F50",
+      "name": "Ferrari F50 1995",
+      "rarity": "rare",
+      "leastPrice": 2000000,
+      "image": "../../img/bank/cars/Ferrari_F50.png",
+      "speed": 7,
+      "durability": 100
+    },
+    {
+      "id": "Lamborghini_Sesto_Elemento",
+      "name": "Lamborghini Sesto Elemento 2011",
+      "rarity": "rare",
+      "leastPrice": 2500000,
+      "image": "../../img/bank/cars/Lamborghini_Sesto_Elemento.png",
+      "speed": 8,
+      "durability": 100
+    },
+    {
+      "id": "Lamborghini_SC20",
+      "name": "Lamborghini SC20 2020",
+      "rarity": "rare",
+      "leastPrice": 2500000,
+      "image": "../../img/bank/cars/Lamborghini_SC20.png",
+      "speed": 8,
+      "durability": 100
+    },
+    {
+      "id": "Lamborghini_Aventador_LP_780-4_Ultimae",
+      "name": "Lamborghini Aventador LP 780-4 Ultimae 2021",
+      "rarity": "rare",
+      "leastPrice": 250000,
+      "image": "../../img/bank/cars/Lamborghini_Aventador_LP_780-4_Ultimae.png",
+      "speed": 7,
+      "durability": 100
+    },
+    {
+      "id": "Koenigsegg_Agera",
+      "name": "Koenigsegg Agera 2011",
+      "rarity": "rare",
+      "leastPrice": 1500000,
+      "image": "../../img/bank/cars/Koenigsegg_Agera.png",
+      "speed": 10,
+      "durability": 100
+    },
+    {
+      "id": "Porsche_#46_356_SL_Gmünd_Coupe",
+      "name": "Porsche #46 356 SL Gmünd Coupe 1951",
+      "rarity": "rare",
+      "leastPrice": 1000000,
+      "image": "../../img/bank/cars/Porsche_#46_356_SL_Gmünd_Coupe.png",
+      "speed": 4,
+      "durability": 100
+    },
+    {
+      "id": "Volkswagen_Beetle",
+      "name": "Volkswagen Beetle 1963",
+      "rarity": "rare",
+      "leastPrice": 20000,
+      "image": "../../img/bank/cars/Volkswagen_Beetle.png",
+      "speed": 3,
+      "durability": 100
+    },
+    {
+      "id": "Koenigsegg_CCGT",
+      "name": "Koenigsegg CCGT 2008",
+      "rarity": "rare",
+      "leastPrice": 1000000,
+      "image": "../../img/bank/cars/Koenigsegg_CCGT.png",
+      "speed": 8,
+      "durability": 100
+    },
+    {
+      "id": "Bugatti_EB110_Super_Sport",
+      "name": "Bugatti EB110 Super Sport 1992",
+      "rarity": "rare",
+      "leastPrice": 1700000,
+      "image": "../../img/bank/cars/Bugatti_EB110_Super_Sport.png",
+      "speed": 8,
+      "durability": 100
+    },
+    {
+      "id": "Aston_Martin_DBR1",
+      "name": "Aston Martin DBR1 1958",
+      "rarity": "rare",
+      "leastPrice": 22500000,
+      "image": "../../img/bank/cars/Aston_Martin_DBR1.png",
+      "speed": 6,
+      "durability": 100
+    },
+    {
+      "id": "Ferrari_250_California",
+      "name": "Ferrari 250 California 1957",
+      "rarity": "rare",
+      "leastPrice": 18500000,
+      "image": "../../img/bank/cars/Ferrari_250_California.png",
+      "speed": 5,
+      "durability": 100
+    },
+    {
+      "id": "Ferrari_F50_GT",
+      "name": "Ferrari F50 GT 1996",
+      "rarity": "rare",
+      "leastPrice": 2000000,
+      "image": "../../img/bank/cars/Ferrari_F50_GT.png",
+      "speed": 8,
+      "durability": 100
+    },
+    {
+      "id": "Pagani_Zonda_Cinque_Roadster_\"Oreo_Edition\"",
+      "name": "Pagani Zonda Cinque Roadster \"Oreo Edition\" 2009",
+      "rarity": "rare",
+      "leastPrice": 2100000,
+      "image": "../../img/bank/cars/Pagani_Zonda_Cinque_Roadster_\"Oreo_Edition\".png",
+      "speed": 7,
+      "durability": 100
+    },
+    {
+      "id": "Porsche_550A_Spyder",
+      "name": "Porsche 550A Spyder 1955",
+      "rarity": "rare",
+      "leastPrice": 600000,
+      "image": "../../img/bank/cars/Porsche_550A_Spyder.png",
+      "speed": 5,
+      "durability": 100
+    },
+    {
+      "id": "Mercedes-Benz_SSK",
+      "name": "Mercedes-Benz SSK 1929",
+      "rarity": "rare",
+      "leastPrice": 7500000,
+      "image": "../../img/bank/cars/Mercedes-Benz_SSK.png",
+      "speed": 4,
+      "durability": 100
+    },
+    {
+      "id": "Aston_Martin_Valkyrie_AMR_Pro",
+      "name": "Aston Martin Valkyrie AMR Pro 2022",
+      "rarity": "rare",
+      "leastPrice": 4210000,
+      "image": "../../img/bank/cars/Aston_Martin_Valkyrie_AMR_Pro.png",
+      "speed": 7,
+      "durability": 100
+    },
+    {
+      "id": "Nissan_Donut_Media_350Z_'Hi_Car'",
+      "name": "Nissan Donut Media 350Z 'Hi Car' 2004",
+      "rarity": "rare",
+      "leastPrice": 250000,
+      "image": "../../img/bank/cars/Nissan_Donut_Media_350Z_'Hi_Car'.png",
+      "speed": 7,
+      "durability": 100
+    },
+    {
+      "id": "Ferrari_FXX",
+      "name": "Ferrari FXX 2005",
+      "rarity": "rare",
+      "leastPrice": 2500000,
+      "image": "../../img/bank/cars/Ferrari_FXX.png",
+      "speed": 8,
+      "durability": 100
+    },
+    {
+      "id": "Bugatti_Veyron_Super_Sport",
+      "name": "Bugatti Veyron Super Sport 2011",
+      "rarity": "rare",
+      "leastPrice": 2200000,
+      "image": "../../img/bank/cars/Bugatti_Veyron_Super_Sport.png",
+      "speed": 10,
+      "durability": 100
+    },
+    {
+      "id": "Ferrari_812_Superfast",
+      "name": "Ferrari 812 Superfast 2017",
+      "rarity": "rare",
+      "leastPrice": 350000,
+      "image": "../../img/bank/cars/Ferrari_812_Superfast.png",
+      "speed": 8,
+      "durability": 100
+    },
+    {
+      "id": "Porsche_356_C_Cabriolet_Emory_Special",
+      "name": "Porsche 356 C Cabriolet Emory Special 1960",
+      "rarity": "epic",
+      "leastPrice": 400000,
+      "image": "../../img/bank/cars/Porsche_356_C_Cabriolet_Emory_Special.png",
+      "speed": 5,
+      "durability": 100
+    },
+    {
+      "id": "Chevrolet_“Barbie_Movie”_Corvette_EV",
+      "name": "Chevrolet “Barbie Movie” Corvette EV 1956",
+      "rarity": "epic",
+      "leastPrice": 250000,
+      "image": "../../img/bank/cars/Chevrolet_“Barbie_Movie”_Corvette_EV.png",
+      "speed": 4,
+      "durability": 100
+    },
+    {
+      "id": "Lamborghini_Gallardo_LP_570-4_Superleggera",
+      "name": "Lamborghini Gallardo LP 570-4 Superleggera 2011",
+      "rarity": "epic",
+      "leastPrice": 280000,
+      "image": "../../img/bank/cars/Lamborghini_Gallardo_LP_570-4_Superleggera.png",
+      "speed": 8,
+      "durability": 100
+    },
+    {
+      "id": "McLaren_Sabre",
+      "name": "McLaren Sabre 2021",
+      "rarity": "epic",
+      "leastPrice": 4000000,
+      "image": "../../img/bank/cars/McLaren_Sabre.png",
+      "speed": 8,
+      "durability": 100
+    },
+    {
+      "id": "Ford_#88_Mustang_RTR",
+      "name": "Ford #88 Mustang RTR 2018",
+      "rarity": "epic",
+      "leastPrice": 500000,
+      "image": "../../img/bank/cars/Ford_#88_Mustang_RTR.png",
+      "speed": 6,
+      "durability": 100
+    },
+    {
+      "id": "Audi_RS_e-tron_GT",
+      "name": "Audi RS e-tron GT 2021",
+      "rarity": "epic",
+      "leastPrice": 250000,
+      "image": "../../img/bank/cars/Audi_RS_e-tron_GT.png",
+      "speed": 6,
+      "durability": 100
+    },
+    {
+      "id": "Porsche_911_Turbo_3.3",
+      "name": "Porsche 911 Turbo 3.3 1982",
+      "rarity": "epic",
+      "leastPrice": 150000,
+      "image": "../../img/bank/cars/Porsche_911_Turbo_3.3.png",
+      "speed": 6,
+      "durability": 100
+    },
+    {
+      "id": "Ford_M-Sport_Fiesta_RS",
+      "name": "Ford M-Sport Fiesta RS 2017",
+      "rarity": "epic",
+      "leastPrice": 500000,
+      "image": "../../img/bank/cars/Ford_M-Sport_Fiesta_RS.png",
+      "speed": 5,
+      "durability": 100
+    },
+    {
+      "id": "Ford_Mustang_Dark_Horse",
+      "name": "Ford Mustang Dark Horse 2024",
+      "rarity": "epic",
+      "leastPrice": 250000,
+      "image": "../../img/bank/cars/Ford_Mustang_Dark_Horse.png",
+      "speed": 7,
+      "durability": 100
+    },
+    {
+      "id": "BMW_X6_M",
+      "name": "BMW X6 M 2015",
+      "rarity": "epic",
+      "leastPrice": 130000,
+      "image": "../../img/bank/cars/BMW_X6_M.png",
+      "speed": 6,
+      "durability": 100
+    },
+    {
+      "id": "Ford_#2069_Ford_Performance_Bronco_R",
+      "name": "Ford #2069 Ford Performance Bronco R 2019",
+      "rarity": "epic",
+      "leastPrice": 250000,
+      "image": "../../img/bank/cars/Ford_#2069_Ford_Performance_Bronco_R.png",
+      "speed": 4,
+      "durability": 100
+    },
+    {
+      "id": "Lamborghini_Countach_LP5000_QV",
+      "name": "Lamborghini Countach LP5000 QV 1988",
+      "rarity": "epic",
+      "leastPrice": 220000,
+      "image": "../../img/bank/cars/Lamborghini_Countach_LP5000_QV.png",
+      "speed": 7,
+      "durability": 100
+    },
+    {
+      "id": "Nissan_Figaro",
+      "name": "Nissan Figaro 1991",
+      "rarity": "legendary",
+      "leastPrice": 20000,
+      "image": "../../img/bank/cars/Nissan_Figaro.png",
+      "speed": 3,
+      "durability": 100
+    },
+    {
+      "id": "Nissan_Pao",
+      "name": "Nissan Pao 1989",
+      "rarity": "legendary",
+      "leastPrice": 20000,
+      "image": "../../img/bank/cars/Nissan_Pao.png",
+      "speed": 3,
+      "durability": 100
+    },
+    {
+      "id": "Toyota_MR2_SC",
+      "name": "Toyota MR2 SC 1989",
+      "rarity": "legendary",
+      "leastPrice": 20000,
+      "image": "../../img/bank/cars/Toyota_MR2_SC.png",
+      "speed": 5,
+      "durability": 100
+    },
+    {
+      "id": "Dodge_Magnum_SRT-8",
+      "name": "Dodge Magnum SRT-8 2008",
+      "rarity": "legendary",
+      "leastPrice": 35000,
+      "image": "../../img/bank/cars/Dodge_Magnum_SRT-8.png",
+      "speed": 6,
+      "durability": 100
+    },
+    {
+      "id": "Mercedes-Benz_G_65_AMG",
+      "name": "Mercedes-Benz G 65 AMG 2013",
+      "rarity": "legendary",
+      "leastPrice": 350000,
+      "image": "../../img/bank/cars/Mercedes-Benz_G_65_AMG.png",
+      "speed": 6,
+      "durability": 100
+    },
+    {
+      "id": "BMW_M5_2012",
+      "name": "BMW M5 2012",
+      "rarity": "legendary",
+      "leastPrice": 112000,
+      "image": "../../img/bank/cars/BMW_M5_2012.png",
+      "speed": 7,
+      "durability": 100
+    },
+    {
+      "id": "Mitsubishi_Lancer_Evolution_X_GSR_\"Welcome_Pack\"",
+      "name": "Mitsubishi Lancer Evolution X GSR \"Welcome Pack\" 2008",
+      "rarity": "legendary",
+      "leastPrice": 43000,
+      "image": "../../img/bank/cars/Mitsubishi_Lancer_Evolution_X_GSR_\"Welcome_Pack\".png",
+      "speed": 7,
+      "durability": 100
+    },
+    {
+      "id": "Dodge_Charger_R/T",
+      "name": "Dodge Charger R/T 1969",
+      "rarity": "legendary",
+      "leastPrice": 103000,
+      "image": "../../img/bank/cars/Dodge_Charger_R/T.png",
+      "speed": 5,
+      "durability": 100
+    },
+    {
+      "id": "Mitsubishi_Lancer_Evolution_VIII_MR",
+      "name": "Mitsubishi Lancer Evolution VIII MR 2004",
+      "rarity": "legendary",
+      "leastPrice": 31000,
+      "image": "../../img/bank/cars/Mitsubishi_Lancer_Evolution_VIII_MR.png",
+      "speed": 6,
+      "durability": 100
+    },
+    {
+      "id": "Toyota_Sera",
+      "name": "Toyota Sera 1991",
+      "rarity": "legendary",
+      "leastPrice": 10000,
+      "image": "../../img/bank/cars/Toyota_Sera.png",
+      "speed": 4,
+      "durability": 100
+    },
+    {
+      "id": "BMW_i8",
+      "name": "BMW i8 2015",
+      "rarity": "legendary",
+      "leastPrice": 140000,
+      "image": "../../img/bank/cars/BMW_i8.png",
+      "speed": 7,
+      "durability": 100
+    },
+    {
+      "id": "Mercedes-AMG_GT3",
+      "name": "Mercedes-AMG GT3 2018",
+      "rarity": "legendary",
+      "leastPrice": 305000,
+      "image": "../../img/bank/cars/Mercedes-AMG_GT3.png",
+      "speed": 7,
+      "durability": 100
+    }
+  ],
+  "rarityWeights": {
+    "common": 50,
+    "rare": 30,
+    "epic": 15,
+    "legendary": 5
+  },
+  "rarityColors": {
+    "common": "#9E9E9E",
+    "rare": "#2196F3",
+    "epic": "#9C27B0",
+    "legendary": "#FF9800"
+  },
+  "rarityLabels": {
+    "common": "عادي",
+    "rare": "نادر",
+    "epic": "ملحمي",
+    "legendary": "أسطوري"
+  },
+  "hejolah": {
+    "obstacles": ["🚧", "🪨", "🐓", "🛢️", "📦"],
+    "ticketMinAmount": 5000,
+    "ticketMaxAmount": 100000,
+    "damageProbability": 0.4,
+    "gameRows": 6,
+    "gameCols": 5,
+    "playerLane": 2
+  },
+  "repair": {
+    "costPerDurability": 500
+  },
+  "harraj": {
+    "negotiationTimeout": 60000
+  }
+}
